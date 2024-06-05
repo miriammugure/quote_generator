@@ -1,61 +1,60 @@
-.big-quote-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.big-quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.quote-container{
-    margin: 4rem;
-     justify-content: center;
-    align-items: center;
-    display: flex;
-    padding: 2rem;
-    flex-direction: column;
-   gap: 2rem;
-  
-   width: 40rem;
-    border-radius: 10px;
-    /* background: rgb(95,15,64); */
-    background: radial-gradient(circle, rgb(17, 104, 106) 35%, rgba(15,76,92,1) 100%);
-    /* clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 100%, 70% 100%, 0 100%, 0% 70%, 0% 30%); */
+.quote-container {
+  margin: 4rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  gap: 2rem;
+
+  width: 40rem;
+  border-radius: 10px;
+  /* background: rgb(95,15,64); */
+  background: radial-gradient(
+    circle,
+    rgb(17, 104, 106) 35%,
+    rgba(15, 76, 92, 1) 100%
+  );
+  /* clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 100%, 70% 100%, 0 100%, 0% 70%, 0% 30%); */
 }
-.quote-container svg{
-    color: #fff;
-    font-size: 3rem;
+.quote-container svg {
+  color: #fff;
+  font-size: 3rem;
 }
-.text{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1rem;
-    color: #fff;
-    padding: 2rem;
-    border: 2px dotted black;
-    font-family: var(--secondary-font);
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: #fff;
+  padding: 2rem;
+  border: 2px dotted black;
+  font-family: var(--secondary-font);
 }
-.error{
+.error {
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--primary-font);
-
 }
-.load{
-    
-    cursor: pointer;
-    display: flex;
-    gap: 1rem;
-    
-    margin: 2rem;
-    
-
+.load {
+  cursor: pointer;
+  display: flex;
+  gap: 1rem;
+  text-align: center;
+  margin: 2rem;
 }
-.load p{
-    font-size: 2rem;
-    text-transform: capitalize;
-
+.load p {
+  font-size: 2rem;
+  text-transform: capitalize;
+  text-align: center;
 }
-.load svg{
-    font-size: 3rem;
+.load svg {
+  font-size: 3rem;
 }
