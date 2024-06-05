@@ -1,0 +1,41 @@
+.big-quote-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+.quote-container{
+    margin: 4rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   gap: 4rem;
+   width: 40rem;
+   border: 2px solid red;
+    border-radius: 10px;
+    position: relative;
+    background: rgb(95,15,64);
+background: radial-gradient(circle, rgb(17, 104, 106) 35%, rgba(15,76,92,1) 100%);
+    /* clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 100%, 70% 100%, 0 100%, 0% 70%, 0% 30%); */
+}
+.quote-container svg{
+    color: #fff;
+    font-size: 3rem;
+}
+.quote-container h2{
+    font-size: 2rem;
+    color: #fff;
+    font-family: var(--secondary-font);
+}
+.load{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+}
+.load svg{
+    font-size: 3rem;
+}
