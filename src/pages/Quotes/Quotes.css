@@ -7,34 +7,54 @@
 
 .quote-container{
     margin: 4rem;
-    padding: 2rem;
-    justify-content: center;
+     justify-content: center;
     align-items: center;
     display: flex;
+    padding: 2rem;
     flex-direction: column;
-   gap: 4rem;
+   gap: 2rem;
+  
    width: 40rem;
-   border: 2px solid red;
     border-radius: 10px;
-    position: relative;
-    background: rgb(95,15,64);
-background: radial-gradient(circle, rgb(17, 104, 106) 35%, rgba(15,76,92,1) 100%);
+    /* background: rgb(95,15,64); */
+    background: radial-gradient(circle, rgb(17, 104, 106) 35%, rgba(15,76,92,1) 100%);
     /* clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 100%, 70% 100%, 0 100%, 0% 70%, 0% 30%); */
 }
 .quote-container svg{
     color: #fff;
     font-size: 3rem;
 }
-.quote-container h2{
-    font-size: 2rem;
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
     color: #fff;
+    padding: 2rem;
+    border: 2px dotted black;
     font-family: var(--secondary-font);
 }
+.error{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--primary-font);
+
+}
 .load{
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
+    
     cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    
+    margin: 2rem;
+    
+
+}
+.load p{
+    font-size: 2rem;
+    text-transform: capitalize;
+
 }
 .load svg{
     font-size: 3rem;
